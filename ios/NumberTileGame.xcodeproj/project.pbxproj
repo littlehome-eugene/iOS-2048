@@ -34,6 +34,8 @@
 		1A34882518E169AA00D021C3 /* F3HScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882418E169AA00D021C3 /* F3HScoreView.m */; };
 		1A34882818E1713E00D021C3 /* F3HControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882718E1713E00D021C3 /* F3HControlView.m */; };
 		1A92D000191A016600E35C6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A92CFFF191A016600E35C6C /* QuartzCore.framework */; };
+		2CD8813DA16F7B068376F0B4 /* Pods_NumberTileGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334B722740E1F6B5BFDD4448 /* Pods_NumberTileGame.framework */; };
+		A4E85F61CF004EF2B5FCF126 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D40FD919D94F0E845B7AF4 /* libRNFirebase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1A3487AC18DEAD6E00D021C3;
 			remoteInfo = NumberTileGame;
+		};
+		8AD150F5200662170085D2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E0B496E8554926B645819F /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -90,6 +99,11 @@
 		1A34882618E1713E00D021C3 /* F3HControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HControlView.h; path = Views/F3HControlView.h; sourceTree = "<group>"; };
 		1A34882718E1713E00D021C3 /* F3HControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HControlView.m; path = Views/F3HControlView.m; sourceTree = "<group>"; };
 		1A92CFFF191A016600E35C6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		30E0B496E8554926B645819F /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
+		334B722740E1F6B5BFDD4448 /* Pods_NumberTileGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberTileGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD166A2E5FDC4A2D448ACC2 /* Pods-NumberTileGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.debug.xcconfig"; sourceTree = "<group>"; };
+		60A3B1CD8D807EF28EB8C727 /* Pods-NumberTileGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.release.xcconfig"; sourceTree = "<group>"; };
+		E5D40FD919D94F0E845B7AF4 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,8 @@
 				1A3487B318DEAD6E00D021C3 /* CoreGraphics.framework in Frameworks */,
 				1A3487B518DEAD6E00D021C3 /* UIKit.framework in Frameworks */,
 				1A3487B118DEAD6E00D021C3 /* Foundation.framework in Frameworks */,
+				2CD8813DA16F7B068376F0B4 /* Pods_NumberTileGame.framework in Frameworks */,
+				A4E85F61CF004EF2B5FCF126 /* libRNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18E6C7CBC5C473F8DB0460B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AD166A2E5FDC4A2D448ACC2 /* Pods-NumberTileGame.debug.xcconfig */,
+				60A3B1CD8D807EF28EB8C727 /* Pods-NumberTileGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1A3487A418DEAD6E00D021C3 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +149,9 @@
 				1A3487D818DEAD6E00D021C3 /* NumberTileGameTests */,
 				1A3487AF18DEAD6E00D021C3 /* Frameworks */,
 				1A3487AE18DEAD6E00D021C3 /* Products */,
+				18E6C7CBC5C473F8DB0460B2 /* Pods */,
+				A64908176EEC4BA885ABCED1 /* Libraries */,
+				8AD150F1200662170085D2E5 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +172,7 @@
 				1A3487B218DEAD6E00D021C3 /* CoreGraphics.framework */,
 				1A3487B418DEAD6E00D021C3 /* UIKit.framework */,
 				1A3487D218DEAD6E00D021C3 /* XCTest.framework */,
+				334B722740E1F6B5BFDD4448 /* Pods_NumberTileGame.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +259,30 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		8AD150F1200662170085D2E5 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				E5D40FD919D94F0E845B7AF4 /* libRNFirebase.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		8AD150F2200662170085D2E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AD150F6200662170085D2E5 /* libRNFirebase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64908176EEC4BA885ABCED1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				30E0B496E8554926B645819F /* RNFirebase.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,9 +290,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A3487E218DEAD6E00D021C3 /* Build configuration list for PBXNativeTarget "NumberTileGame" */;
 			buildPhases = (
+				82B245A0FA2DD840F3C6710C /* [CP] Check Pods Manifest.lock */,
+				867B69DBFC846779D43D3097 /* 📦 Check Pods Manifest.lock */,
 				1A3487A918DEAD6E00D021C3 /* Sources */,
 				1A3487AA18DEAD6E00D021C3 /* Frameworks */,
 				1A3487AB18DEAD6E00D021C3 /* Resources */,
+				B86DCC2793799901DE9B7291 /* 📦 Embed Pods Frameworks */,
+				C97414C48774DC81FB16EC81 /* 📦 Copy Pods Resources */,
+				D6A1DF7FA28B3EF7E1FF10D8 /* [CP] Embed Pods Frameworks */,
+				963B9671F7B7602E19417323 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,7 +334,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = F3H;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1A3487AC18DEAD6E00D021C3 = {
 						DevelopmentTeam = GYV39WAN3G;
@@ -296,6 +355,12 @@
 			mainGroup = 1A3487A418DEAD6E00D021C3;
 			productRefGroup = 1A3487AE18DEAD6E00D021C3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8AD150F2200662170085D2E5 /* Products */;
+					ProjectRef = 30E0B496E8554926B645819F /* RNFirebase.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1A3487AC18DEAD6E00D021C3 /* NumberTileGame */,
@@ -303,6 +368,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8AD150F6200662170085D2E5 /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = 8AD150F5200662170085D2E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1A3487AB18DEAD6E00D021C3 /* Resources */ = {
@@ -324,6 +399,111 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82B245A0FA2DD840F3C6710C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumberTileGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		867B69DBFC846779D43D3097 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		963B9671F7B7602E19417323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B86DCC2793799901DE9B7291 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97414C48774DC81FB16EC81 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A1DF7FA28B3EF7E1FF10D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A3487A918DEAD6E00D021C3 /* Sources */ = {
@@ -468,6 +648,7 @@
 		};
 		1A3487E318DEAD6E00D021C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD166A2E5FDC4A2D448ACC2 /* Pods-NumberTileGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -475,8 +656,24 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NumberTileGame/NumberTileGame-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 				INFOPLIST_FILE = "NumberTileGame/NumberTileGame-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-lc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -485,6 +682,7 @@
 		};
 		1A3487E418DEAD6E00D021C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A3B1CD8D807EF28EB8C727 /* Pods-NumberTileGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -492,8 +690,24 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NumberTileGame/NumberTileGame-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 				INFOPLIST_FILE = "NumberTileGame/NumberTileGame-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-lc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -516,6 +730,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "NumberTileGameTests/NumberTileGameTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -534,6 +752,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NumberTileGame/NumberTileGame-Prefix.pch";
 				INFOPLIST_FILE = "NumberTileGameTests/NumberTileGameTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
